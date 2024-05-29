@@ -1,5 +1,5 @@
 import ProfileCard from "../../components/ProfileCard/ProfileCard";
-import "./style.css";
+import "./styles.css";
 
 function HomeWork2() {
   return (
