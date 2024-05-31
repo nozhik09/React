@@ -1,6 +1,8 @@
-.profileCard_container {
-
-width: 1000px;
-height: 100px;
+.profile_card_container {
+display: flex;
+justify-content: center;
+gap: 30px;
+padding: 40px;
+flex: 1px;
 
 }
