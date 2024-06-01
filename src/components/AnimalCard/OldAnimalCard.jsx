@@ -1,14 +1,14 @@
 import "./styles.css";
 
-function AnimalCard({ animalData}) {
+function OldAnimalCard({ animalData, animalName, children }) {
   return (
     <div className="animal_card_wrapper">
-      <h2> {animalData.name} </h2>
+      <h2> {animalName} </h2>
       <p> {animalData.species} </p>
       <p> {animalData.role} </p>
       <img src={animalData.image} />
-  
+      {children}
     </div>
   );
 }
-export default AnimalCard;
+export default OldAnimalCard;

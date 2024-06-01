@@ -1,6 +1,6 @@
 import Button from "../../components/Button/OldButton";
 import "./styles.css";
-import AnimalCard from "../../components/AnimalCard/AnimalCard";
+import OldAnimalCard from "../../components/AnimalCard/AnimalCard";
 import { lionData, zebraData, normalizeData } from "./data";
 
 function Lesson_03() {
